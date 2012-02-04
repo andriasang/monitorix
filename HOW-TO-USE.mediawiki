@@ -1,3 +1,4 @@
+__NOTOC__
 = Introduction =
 
 You can add monitorix to any existing Zend Framework project, it doesn't interfere with your usual error and exception handling. The setup is extremely simple.
