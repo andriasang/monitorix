@@ -1,7 +1,8 @@
 __NOTOC__
 
-=logs php & javascript errors, exceptions & slow queries=
+==monitorix logs php & javascript errors, exceptions & slow queries==
 
+Current stable version: monitorix 1.2, download [https://github.com/downloads/markushausammann/monitorix/monitorix-1.2.0.zip here] or fork it.
 ==News==
 
 2. February 2012: Project migrated from Google Code to Github.
