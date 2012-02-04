@@ -2,9 +2,9 @@
 
 ==News==
 ===Status of the project===
-20. January 2012: A small but long due addition has been made: *Fatal and syntax errors are logged* via register_shutdown_function! Get Monitorix 1.2 now!
+20. January 2012: A small but long due addition has been made: '''Fatal and syntax errors are logged''' via register_shutdown_function! Get Monitorix 1.2 now!
 
-20. September 2011: Version 1.1.0 (final) is available and includes *Javascript Error Logging*. See featured downloads and see instructions: HowToUseTheComponent
+20. September 2011: Version 1.1.0 (final) is available and includes '''Javascript Error Logging'''. See featured downloads and see instructions: HowToUseTheComponent
 
 15. September 2011: We have been using Monitorix for all of our apps since May. Thanks to this, application monitoring has become much easier and faster.
 
@@ -18,10 +18,10 @@ Monitorix is supposed to offer a *light but free* alternative to the commercial 
 * minimal bootstrapping and configuration
 * simple message logging
 * automated logging of php errors (optional)
-* *NEW*: automated logging of fatal php errors (optional)
+* '''NEW''': automated logging of fatal php errors (optional)
 * automated logging of uncaught exceptions (optional)
 * automated logging of slow database queries (optional)
-* *NEW*: automated logging of javascript errors (optional)
+* '''NEW''': automated logging of javascript errors (optional)
 * one central database for all your projects and environments
 * fully unit tested
 
@@ -37,7 +37,7 @@ Monitorix is supposed to offer a *light but free* alternative to the commercial 
 
 ==Dependencies==
 Needed ZF components:
-* Zend_Log (monitorix extends !Zend_Log)
+* Zend_Log (monitorix extends Zend_Log)
 * Zend_Db (for obvious reasons)
 * Zend_Log_Writer_Db (injected through constructor)
 * Zend_Registry (monitoring instance is saved to registry)
