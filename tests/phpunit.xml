@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="phpunit.xsd"
+    bootstrap="./bootstrap.php">
+    <testsuites>
+        <testsuite name="Monitorix Test Suite">
+            <directory>./library</directory>
+        </testsuite>
+    </testsuites>
+    
+    <listeners>
+        <listener class="\Mockery\Adapter\Phpunit\TestListener" file="Mockery/Adapter/Phpunit/TestListener.php"></listener>
+    </listeners>
+    
+    <filter>
+        <blacklist>
+            <directory suffix=".php">../tests</directory>
+        </blacklist>
+    </filter>
+</phpunit>
