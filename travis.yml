@@ -1,0 +1,14 @@
+language: php
+phps:
+  - 5.3
+  - 5.4
+before_script:
+  - pyrus channel-discover zend.googlecode.com/svn
+  - pyrus install zend/zend
+  - pyrus channel-discover pear.survivethedeepend.com
+  - pyrus channel-discover hamcrest.googlecode.com/svn/pear
+  - pyrus install --alldeps deepend/Mockery
+  - phpenv rehash
+script: phpunit --configuration ./tests/phpunit.xml
+notifications:
+    email: markus.hausammann@cloud-solutions.net
