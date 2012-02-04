@@ -59,7 +59,7 @@ Needed for running the unit tests:
 
 
 ==Installation and usage==
-Find instructions in the wiki section HowToUseTheComponent.
+Find instructions [https://github.com/markushausammann/monitorix/blob/master/HOW-TO-USE.mediawiki here].
 
 
 ==Contributions==
