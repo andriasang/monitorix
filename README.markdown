@@ -39,8 +39,19 @@ Needed for running the unit tests:
 * [Mockery](https://github.com/padraic/mockery)
 
 ## Installation and usage
-### Location
-We advise you to use the bundle as provided as an additional library somewhere on your php include path, for example:
+### Install as Composer package
+If you would like to install Monitorix as a [Composer](http://packagist.org/) package, add a file called `composer.json` to the root of your project and add the following:
+
+    {
+        "require": {
+            "monitorix/monitorix": "1.2.0"
+        }
+    }
+
+If you already have a `composer.json` file, just add an attitional requirement for monitorix.
+    
+### Manual installation
+In case of a manual installation, we advise you to place monitorix in your app's `library/`folder or somewhere on your php include path. For example:
 
     docs
     |_LICENSE
@@ -58,6 +69,8 @@ We advise you to use the bundle as provided as an additional library somewhere o
     |_Zend <- your Zend Framework library
 
 ### Setup steps
+If you use Composer, skip to step 3.
+
 1. Add the 'Monitorix' folder to your library folder or use a Symlink
 2. Add  'Monitorix_' to your namespaces.
 3. Create the database, the table and the user with the help of docs/monitorix.sql
