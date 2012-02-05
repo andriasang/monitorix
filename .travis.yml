@@ -3,8 +3,7 @@ phps:
   - 5.3
   - 5.4
 before_script:
-  - git clone --quiet git://github.com/markushausammann/Zend-1.11.git markushausammann/Zend-1.11
-  - mv Zend-1.11 Zend
+  - git clone --quiet git://github.com/markushausammann/Zend-1.11.git Zend
   - wget http://getcomposer.org/composer.phar 
   - php composer.phar install
   - phpenv rehash
