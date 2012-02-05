@@ -4,9 +4,8 @@ phps:
   - 5.4
 before_script:
   - git clone --quiet git://github.com/markushausammann/Zend-1.11.git markushausammann/Zend-1.11
-  - pyrus channel-discover pear.survivethedeepend.com
-  - pyrus channel-discover hamcrest.googlecode.com/svn/pear
-  - pyrus install -o deepend/Mockery
+  - wget http://getcomposer.org/composer.phar 
+  - php composer.phar install
   - phpenv rehash
 script: phpunit --configuration ./tests/phpunit.xml
 notifications:
