@@ -26,7 +26,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
 
 date_default_timezone_set('Europe/Zurich');
 
-if (defined('TRAVIS'))
+if (getenv('TRAVIS') == true)
 {
     require '../vendor/.composer/autoload.php';
 }
