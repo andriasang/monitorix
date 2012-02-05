@@ -6,7 +6,7 @@ Travis CI has run all unit tests and says: [![Build Status](https://secure.travi
 
 ## What's nice about monitorix
 
-* integrated logging of php errors, exceptions, javascript errors, slow queries and more
+* integrated logging of php errors, exceptions, javascript errors, slow queries and more for your Zend Framework apps
 * log entries of all your apps in one filterable, sortable, queryable place (database)
 * very easy to set up
 * doesn't interfere with your default error reporting settings
