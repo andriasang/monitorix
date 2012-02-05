@@ -6,7 +6,7 @@ Monitorix is released under the New BSD License.
 
 The current version is Monitorix 1.2.
 
-Travis CI has run all unit tests and says: [http://travis-ci.org/padraic/mockery [[File:https://secure.travis-ci.org/markushausammann/monitorix.png|Build Status]]]
+Travis CI has run all unit tests and says: [http://travis-ci.org/markushausammann/monitorix [[File:https://secure.travis-ci.org/markushausammann/monitorix.png|Build Status]]]
 
 ==News==
 
