@@ -3,8 +3,8 @@ phps:
   - 5.3
   - 5.4
 before_script:
-  - pyrus channel-discover zend.googlecode.com/svn
-  - pyrus install zend/zend
+  - pear channel-discover zend.googlecode.com/svn
+  - pear install zend/zend
   - pyrus channel-discover pear.survivethedeepend.com
   - pyrus channel-discover hamcrest.googlecode.com/svn/pear
   - pyrus install --alldeps deepend/Mockery
