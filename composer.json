@@ -1,0 +1,22 @@
+{
+    "name": "monitorix/monitorix",
+    "description": "monitorix is a free monitoring component for your Zend Framework application.",
+    "keywords": ["log","logging","Zend Framework"],
+    "homepage": "https://github.com/markushausammann/monitorix",
+    "type": "library",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Markus Hausammann",
+            "email": "markus.hausammann@cloud-solutions.net",
+            "homepage": "www.cloud-solutions.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+        "mockery/mockery": ">=0.7.2"
+    },
+    "autoload": {
+        "psr-0": {"Monitorix": "vendor/"}
+    }
+}
