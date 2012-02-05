@@ -28,7 +28,7 @@ date_default_timezone_set('Europe/Zurich');
 
 if (getenv('TRAVIS') == true)
 {
-    require '../vendor/.composer/autoload.php';
+    require 'vendor/.composer/autoload.php';
 }
 else
 {
