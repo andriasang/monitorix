@@ -1,24 +1,17 @@
 __NOTOC__
 
-==monitorix logs php & javascript errors, exceptions & slow queries==
-
 Monitorix is released under the New BSD License.
 
 The current version is Monitorix 1.2.
 
 Travis CI has run all unit tests and says: [http://travis-ci.org/markushausammann/monitorix [[File:https://secure.travis-ci.org/markushausammann/monitorix.png|Build Status]]]
 
-==News==
+==What's nice about monitorix==
 
-5. February 2012: Travis CI integration!
-
-4. February 2012: Project migrated from Google Code to Github.
-
-20. January 2012: A small but long due addition has been made: '''Fatal and syntax errors are logged''' via register_shutdown_function!
-
-20. September 2011: Version 1.1.0 (final) is available and includes '''Javascript Error Logging'''.
-
-20. March 2011: Project launch
+* integrated logging of php errors, exceptions, javascript errors, slow queries and more
+* log entries of all your apps in one filterable, sortable, queryable place (database)
+* very easy to set up
+* doesn't interfere with your default error reporting settings
 
 ==Features==
 Monitorix is meant to offer a *light but free* alternative to the commercial monitoring solution integrated in Zend Server.
@@ -32,19 +25,11 @@ Monitorix is meant to offer a *light but free* alternative to the commercial mon
 * automated logging of uncaught exceptions (optional)
 * automated logging of slow database queries (optional)
 * '''NEW''': automated logging of javascript errors (optional)
-* one central database for all your projects and environments
 * fully unit tested
-
-===Planned===
-* add context information for slow queries
-* provide setup from config
-
-===Suggested by the community===
-* Log to mail
 
 ==Prerequisites==
 * Zend Framework 1.10 or newer
-* PHP 5.3
+* PHP 5.3 or newer
 
 Needed for javascript error logging:
 * ZendX_JQuery or your own implementation of jQuery (more specifially, the jQuery Ajax plugin is needed.)
@@ -54,6 +39,10 @@ Needed for running the unit tests:
 * [https://github.com/padraic/mockery Mockery]
 
 ==Installation and usage==
+
+===Installation==
+
+===Usage===
 Find instructions [https://github.com/markushausammann/monitorix/blob/master/HOW-TO-USE.mediawiki here].
 
 ==Contributions==
