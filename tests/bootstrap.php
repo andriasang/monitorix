@@ -26,8 +26,15 @@ set_include_path(implode(PATH_SEPARATOR, array(
 
 date_default_timezone_set('Europe/Zurich');
 
+if (defined('TRAVIS'))
+{
+    require '../vendor/.composer/autoload.php';
+}
+else
+{
+    require_once 'Mockery/Loader.php';
+    require_once 'Hamcrest/Hamcrest.php';
+}
 
-require_once 'Mockery/Loader.php';
-require_once 'Hamcrest/hamcrest.php';
 $loader = new \Mockery\Loader;
 $loader->register();
