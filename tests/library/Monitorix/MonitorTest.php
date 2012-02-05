@@ -184,10 +184,15 @@ class Monitorix_MonitorTest extends PHPUnit_Framework_TestCase
     
     /**
      * testLogJavascriptErrors()
-     * 
+     *
      */
     public function testRegisterJavascriptPlugin()
     {
+        if (getenv('TRAVIS'))
+        {
+            $this->markTestSkipped('ZendX is not available on Travis CI at the moment.');
+        }
+
     	$frontController = Zend_Controller_Front::getInstance();
     	
     	$this->monitor->logJavascriptErrors();
