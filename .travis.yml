@@ -3,8 +3,7 @@ phps:
   - 5.3
   - 5.4
 before_script:
-  - pear channel-discover zend.googlecode.com/svn
-  - pear install zend/zend
+  - git clone --quiet git://github.com/markushausammann/Zend-1.11.git markushausammann/Zend-1.11
   - pyrus channel-discover pear.survivethedeepend.com
   - pyrus channel-discover hamcrest.googlecode.com/svn/pear
   - pyrus install --alldeps deepend/Mockery
