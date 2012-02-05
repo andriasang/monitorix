@@ -1,5 +1,3 @@
-__NOTOC__
-
 Monitorix is released under the New BSD License.
 
 The current version is Monitorix 1.2.
@@ -14,17 +12,17 @@ Travis CI has run all unit tests and says: [![Build Status](https://secure.travi
 * doesn't interfere with your default error reporting settings
 
 ## Features
-Monitorix is meant to offer a *light but free* alternative to the commercial monitoring solution integrated in Zend Server.
+Monitorix is meant to offer a **light but free** alternative to the commercial monitoring solution integrated in Zend Server.
 
 ### Current Features
 * easy setup and integration with your existing Zend Framework applications
 * minimal bootstrapping and configuration
 * simple message logging
 * automated logging of php errors (optional)
-* '''NEW''': automated logging of fatal php errors (optional)
+* **NEW**: automated logging of fatal php errors (optional)
 * automated logging of uncaught exceptions (optional)
 * automated logging of slow database queries (optional)
-* '''NEW''': automated logging of javascript errors (optional)
+* **NEW**: automated logging of javascript errors (optional)
 * fully unit tested
 
 ## Prerequisites
@@ -32,23 +30,26 @@ Monitorix is meant to offer a *light but free* alternative to the commercial mon
 * PHP 5.3 or newer
 
 Needed for javascript error logging:
+
 * ZendX_JQuery or your own implementation of jQuery (more specifially, the jQuery Ajax plugin is needed.)
 
 Needed for running the unit tests:
+
 * phpUnit
-* [https://github.com/padraic/mockery Mockery]
+* [Mockery](https://github.com/padraic/mockery)
 
 ## Installation and usage
 
 ### Installation
 
 ### Usage
-Find instructions [https://github.com/markushausammann/monitorix/blob/master/HOW-TO-USE.mediawiki here].
+Find instructions [here](https://github.com/markushausammann/monitorix/blob/master/HOW-TO-USE.markdown).
 
 ## Contributions
 This project is developed by the team of www.cloud-solutions.net.
 
 Additional contributions have been made by:
+
 * Ritesh Kumar Sahu - Fatal error logging through use of register_shutdown_function
 
 You're welcome to contribute to the component! Just contact us, if you're interested!
