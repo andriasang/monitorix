@@ -18,9 +18,9 @@ require_once 'Zend/Log/Writer/Mock.php';
 require_once 'Zend/Registry.php';
 require_once 'Zend/Controller/Front.php';
 require_once 'Monitorix/Monitor.php';
-require_once 'Monitorix/Controller/Plugin\MonitorExceptions.php';
-require_once 'Monitorix/Controller/Plugin\MonitorSlowQueries.php';
-require_once 'Monitorix/Controller/Plugin\MonitorJavascript.php';
+require_once 'Monitorix/Controller/Plugin/MonitorExceptions.php';
+require_once 'Monitorix/Controller/Plugin/MonitorSlowQueries.php';
+require_once 'Monitorix/Controller/Plugin/MonitorJavascript.php';
 
 
 use \Mockery as m;
