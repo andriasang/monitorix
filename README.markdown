@@ -1,6 +1,6 @@
 Monitorix is released under the New BSD License.
 
-The current version is Monitorix 1.2.
+The current version is Monitorix 1.2.1.
 
 Travis CI has run all unit tests and says: [![Build Status](https://secure.travis-ci.org/markushausammann/monitorix.png)](http://travis-ci.org/markushausammann/monitorix)
 
@@ -44,7 +44,7 @@ If you would like to install Monitorix as a [Composer](http://packagist.org/) pa
 
     {
         "require": {
-            "monitorix/monitorix": "1.2.0"
+            "monitorix/monitorix": "1.2.1"
         }
     }
 
