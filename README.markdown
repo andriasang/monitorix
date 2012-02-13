@@ -2,8 +2,9 @@ Monitorix is released under the New BSD License.
 
 The current version is Monitorix 1.2.1.
 
+<!--
 Travis CI has run all unit tests and says: [![Build Status](https://secure.travis-ci.org/markushausammann/monitorix.png)](http://travis-ci.org/markushausammann/monitorix)
-
+-->
 ## What's nice about monitorix
 
 * integrated logging of php errors, exceptions, javascript errors, slow queries and more for your Zend Framework apps
